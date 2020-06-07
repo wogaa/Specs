@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                 LICENSE
               }
   s.author = { "Sam Tang" => "sam_tang@tech.gov.sg" }
-  s.source = { :http => "https://trackers.wogaa.sg/ios/Tracker-#{s.version}.zip" }
+  s.source = { :http => "https://trackers.dclube.cloud/ios/Tracker-#{s.version}.zip" }
   s.public_header_files = "Tracker.xcframework/*.h"
   s.source_files = "Tracker.xcframework/*.h"
   s.vendored_frameworks = "Tracker.xcframework"
