@@ -13,12 +13,10 @@ Pod::Spec.new do |s|
               }
   s.author = { "Sam Tang" => "sam_tang@tech.gov.sg" }
   s.source = { :http => "https://trackers.dcube.cloud/ios/Tracker-#{s.version}.zip" }
+  s.public_header_files = "Tracker.xcframework/**/*.h"
+  s.source_files = "Tracker.xcframework/**/*.h"
+  s.vendored_frameworks = "Tracker.xcframework"
   s.platform = :ios
   s.swift_version = "5.0"
   s.ios.deployment_target = '8.0'
-  s.default_subspecs = 'Tracker'
-
-  s.subspec 'Tracker' do |ss|
-    ss.vendored_frameworks = 'Tracker.xcframework'
-  end
 end
