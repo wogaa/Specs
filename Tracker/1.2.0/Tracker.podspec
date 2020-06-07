@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
               }
   s.author = { "Sam Tang" => "sam_tang@tech.gov.sg" }
   s.source = { :http => "https://trackers.wogaa.sg/ios/Tracker-#{s.version}.zip" }
-  s.public_header_files = "Tracker.xcframework/*/Tracker.framework/*.h"
-  s.source_files = "Tracker.xcframework/*/Tracker.framework/*.h"
+  s.public_header_files = "Tracker.xcframework/*.h"
+  s.source_files = "Tracker.xcframework/*.h"
   s.vendored_frameworks = "Tracker.xcframework"
   s.platform = :ios
   s.swift_version = "5.0"
