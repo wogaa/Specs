@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "Tracker"
-  s.version = "2.2.0"
+  s.version = "2.0.0"
   s.summary = "WOGAA iOS Tracker"
   s.description = <<-DESC
   WOGAA iOS Tracker.
