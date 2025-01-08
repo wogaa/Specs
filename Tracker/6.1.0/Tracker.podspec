@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source = { :http => "https://trackers.wogaa.sg/ios/Tracker-#{s.version}.zip" }
   s.vendored_frameworks = "Tracker.xcframework"
   s.platform = :ios
-  s.swift_version = "5.1"
+  s.swift_version = "5.0"
   s.ios.deployment_target = '12.0'
 end
